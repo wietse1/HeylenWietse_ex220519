@@ -1,0 +1,16 @@
+go to ensemble website
+
+
+search in the browser for the gene MYCN in zebrafish. 
+there you can retreive the ensemble gene ID ENSDARG00000006837
+we also see it is 2488 bp long 
+
+in terminal use url
+
+curl 'https://rest.ensembl.org/sequence/id/ENSDARG00000006837?;end=100' -H 'Content-type:text/x-fasta'
+
+[guest@localhost sf_shared_folder]$ curl 'https://rest.ensembl.org/sequence/id/ENSDARG00000006837?;end=100' -H 'Content-type:text/x-fasta'
+>ENSDARG00000006837.9 chromosome:GRCz11:20:33294428:33294527:1
+TAGAATAATACTTCACAGCCCGAAACACAGAGGCGCAGAACAGTCTTCAGTCGCCGCGGT
+AGATGTGCGACTCCAAACGGGAGGCACAGTGACTGCGATA
+
