@@ -1,0 +1,1 @@
+select count(chromosome), chromosome from gene where description Like "%breast cancer%" group by chromosome order by count(chromosome) desc limit 1 offset 1
