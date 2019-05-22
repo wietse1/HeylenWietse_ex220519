@@ -1,0 +1,3 @@
+question 4: TRDD, lenght = 8
+
+question 5: chromosome 2
